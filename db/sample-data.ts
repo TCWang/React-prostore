@@ -1,4 +1,6 @@
-const sampleData = {
+import { SampleProduct } from "@/types";
+
+const sampleData: { products: SampleProduct[] } = {
   products: [
     {
       name: 'Polo Sporting Stretch Shirt',
